@@ -7,7 +7,7 @@ st.title("streamlit 入門")
 
 st.write("Display Image")
 
-img = Image.open("test1.jpg")
+img = Image.open("test.png")
 
 st.image(img, caption="stest", use_column_width=True)
 
